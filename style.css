@@ -1,0 +1,22 @@
+#clock {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+#clock .hour {
+  color: red;
+}
+
+#clock .minutes {
+  color: greenyellow;
+}
+
+#clock .seconds {
+  color: pink;
+}
+/*# sourceMappingURL=style.css.map */

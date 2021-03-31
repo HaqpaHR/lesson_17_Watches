@@ -1,0 +1,13 @@
+#clock {
+    display: flex;
+    flex-direction: row;
+    .hour{
+        color: red
+    }
+    .minutes{
+        color: greenyellow
+    }
+    .seconds{
+        color: pink
+    }
+}
