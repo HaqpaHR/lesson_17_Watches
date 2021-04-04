@@ -1,4 +1,4 @@
-#clock {
+.clock {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -8,15 +8,39 @@
           flex-direction: row;
 }
 
-#clock .hour {
+div {
+  font-size: 120px;
+}
+
+div .time0 {
   color: red;
 }
 
-#clock .minutes {
-  color: greenyellow;
+div .time1 {
+  color: orange;
 }
 
-#clock .seconds {
-  color: pink;
+div .time2 {
+  color: green;
+}
+
+div .time3 {
+  color: lightblue;
+}
+
+div .time4 {
+  color: blue;
+}
+
+div .time5 {
+  color: violet;
+}
+
+div .time6 {
+  color: lime;
+}
+
+div .time0 {
+  color: lightcoral;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,13 +1,31 @@
-#clock {
+.clock{
     display: flex;
     flex-direction: row;
-    .hour{
+}
+div{
+    font-size: 120px;
+    .time0{
         color: red
     }
-    .minutes{
-        color: greenyellow
+    .time1{
+        color: orange
     }
-    .seconds{
-        color: pink
+    .time2{
+        color: green
+    }
+    .time3{
+        color: lightblue
+    }
+    .time4{
+        color: blue
+    }
+    .time5{
+        color: violet
+    }
+    .time6{
+        color: lime
+    }
+    .time0{
+        color: lightcoral
     }
 }
